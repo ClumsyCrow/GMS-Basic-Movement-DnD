@@ -6,12 +6,13 @@ if(Walk == 0)
 {
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
-	/// @DnDHash : 494FAD81
+	/// @DnDHash : 31936A67
 	/// @DnDParent : 7C47CA04
+	/// @DnDArgument : "imageind" "image_index"
 	/// @DnDArgument : "spriteind" "spr_Samur_egg_idle"
 	/// @DnDSaveInfo : "spriteind" "spr_Samur_egg_idle"
 	sprite_index = spr_Samur_egg_idle;
-	image_index = 0;
+	image_index = image_index;
 }
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -25,8 +26,9 @@ if(Walk == 1)
 	/// @DnDVersion : 1
 	/// @DnDHash : 41C37001
 	/// @DnDParent : 64974F0F
-	/// @DnDArgument : "imageind" ""
+	/// @DnDArgument : "imageind" "image_index"
 	/// @DnDArgument : "spriteind" "spr_Samur_egg_walk"
 	/// @DnDSaveInfo : "spriteind" "spr_Samur_egg_walk"
 	sprite_index = spr_Samur_egg_walk;
+	image_index = image_index;
 }
